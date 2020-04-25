@@ -1,0 +1,12 @@
+//https://codeforces.com/contest/124/problem/A
+
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  int n,a,b;
+  cin>>n>>a>>b;
+  cout<<min(b+1,n-a)<<endl;
+}
